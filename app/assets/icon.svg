@@ -1,0 +1,29 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6750A4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8E6EE4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F8F8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect x="62" y="62" width="900" height="900" rx="180" fill="url(#bg)"/>
+  
+  <!-- Shield icon (thicker and perfectly centered) -->
+  <path d="M512 240L360 300V440C360 560 420 660 512 700C604 660 664 560 664 440V300L512 240Z" 
+        fill="url(#shield)" stroke="#FFFFFF" stroke-width="10"/>
+  
+  <!-- Lock icon inside shield -->
+  <rect x="490" y="440" width="44" height="40" rx="4" fill="#6750A4"/>
+  <path d="M505 425V415C505 405 508 395 512 395C516 395 519 405 519 415V425" 
+        stroke="#6750A4" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Key hole -->
+  <circle cx="512" cy="450" r="3" fill="#FFFFFF"/>
+  <rect x="511" y="453" width="2" height="10" fill="#FFFFFF"/>
+</svg>
